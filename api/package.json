@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Vexa Amplifier API server",
   "main": "src/server.js",
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "scripts": {
     "start": "node src/server.js",
     "dev": "node --watch src/server.js"
